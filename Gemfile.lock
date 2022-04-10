@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    commonmarker (0.23.4)
+    fuji_markdown (0.4.1)
+      commonmarker (~> 0.17)
+    gepub (1.0.15)
+      nokogiri (>= 1.8.2, < 2.0)
+      rubyzip (> 1.1.1, < 2.4)
+    makimono (0.2.0)
+      commonmarker (>= 0.21)
+      fuji_markdown (>= 0.3)
+      gepub (>= 1.0)
+      thor (>= 1.0)
+    nokogiri (1.13.3-x86_64-darwin)
+      racc (~> 1.4)
+    racc (1.6.0)
+    rubyzip (2.3.2)
+    thor (1.2.1)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  makimono
+
+BUNDLED WITH
+   2.3.8
