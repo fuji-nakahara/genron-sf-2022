@@ -1,0 +1,19 @@
+name: reviewdog
+
+on: [ pull_request ]
+
+jobs:
+  textlint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+
+      - name: Run textlint
+        uses: tsuyoshicho/action-textlint@v3
+        with:
+          github_token: ${{ secrets.github_token }}
+          textlint_flags: src

@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "preset-fuji": true,
+    "prh": {
+      "rulePaths": ["./prh.yml"]
+    }
+  }
+}

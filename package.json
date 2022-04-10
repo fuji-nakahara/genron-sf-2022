@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "lint": "textlint src"
+  },
+  "devDependencies": {
+    "textlint": "latest",
+    "textlint-rule-preset-fuji": "github:fuji-nakahara/textlint-rule-preset-fuji",
+    "textlint-rule-prh": "latest"
+  }
+}
