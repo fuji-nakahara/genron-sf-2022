@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    commonmarker (0.23.6)
+    commonmarker (0.23.9)
     fuji_markdown (0.4.1)
       commonmarker (~> 0.17)
     gepub (1.0.15)
